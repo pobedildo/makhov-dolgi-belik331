@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Colletion/Colletion.iml" filepath="$PROJECT_DIR$/Colletion/Colletion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HashSet/HashSet.iml" filepath="$PROJECT_DIR$/HashSet/HashSet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/MDK_01.01.iml" filepath="$PROJECT_DIR$/.idea/MDK_01.01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Map/Map.iml" filepath="$PROJECT_DIR$/Map/Map.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Задание1/Задание1.iml" filepath="$PROJECT_DIR$/Задание1/Задание1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Задание2/Задание2.iml" filepath="$PROJECT_DIR$/Задание2/Задание2.iml" />
+    </modules>
+  </component>
+</project>

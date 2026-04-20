@@ -1,0 +1,6 @@
+# Скопируйте этот файл под именем db.properties (рядом с папкой src).
+# Пароль — тот же, что вы задаёте для пользователя postgres в PostgreSQL / pgAdmin.
+
+jdbc.url=jdbc:postgresql://localhost:5432/fitness_bank
+db.user=postgres
+db.password=123

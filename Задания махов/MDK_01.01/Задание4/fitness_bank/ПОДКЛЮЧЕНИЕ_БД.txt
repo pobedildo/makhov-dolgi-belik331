@@ -1,0 +1,31 @@
+Задание 4 — как убрать «Ошибка подключения к базе данных»
+============================================================
+
+Важно: pgAdmin 4 — это только программа для администрирования. Само приложение на Java
+подключается напрямую к серверу PostgreSQL (порт 5432), а не «к pgAdmin».
+
+1) Установите PostgreSQL (если ещё не установлен) и запустите службу.
+   В Windows: «Службы» → postgresql-x64-… → «Выполняется».
+
+2) Драйвер JDBC для Java
+   Скачайте файл: https://jdbc.postgresql.org/download/postgresql-42.7.4.jar
+   Положите его сюда (рядом с этим текстовым файлом):
+   fitness_bank\lib\postgresql-42.7.4.jar
+   В IntelliJ: File → Project Structure → Libraries — при необходимости укажите этот jar.
+
+3) Пароль и настройки приложения
+   В папке fitness_bank лежат db.properties.example и db.properties.
+   Откройте db.properties и в строке db.password= укажите пароль пользователя postgres
+   (тот же, что вводите при подключении к серверу в pgAdmin).
+
+4) Создание базы в pgAdmin 4
+   - Подключитесь к серверу (Master Password / пароль пользователя postgres).
+   - Databases → правый клик → Create → Database → имя: fitness_bank → Save.
+   - Откройте базу fitness_bank → Tools → Query Tool.
+   - File → Open → выберите sql\init_fitness_bank.sql из этого проекта → Execute (F5).
+
+5) Запуск
+   Запускайте класс MainApp из модуля fitness_bank. Рабочий каталог в IntelliJ должен быть
+   корнем модуля (папка fitness_bank), чтобы читался файл db.properties.
+
+Если порт не 5432 или база на другом компьютере — измените jdbc.url в db.properties.

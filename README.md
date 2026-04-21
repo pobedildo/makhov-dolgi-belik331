@@ -1,10 +1,9 @@
-# \## Установка LWJGL
+# # Установка LWJGL
 
-# 
 
-# 1\. Скачайте LWJGL 3.3.3 с https://www.lwjgl.org/download
 
-# 2\. Выберите компоненты: lwjgl, lwjgl-glfw, lwjgl-opengl
+# 1 Скачайте LWJGL 3.3.3 с [https://www.lwjgl.org/download](https://www.lwjgl.org/download)
 
-# 3\. Распакуйте ZIP в корень проекта
+# 2 Выберите компоненты: lwjgl, lwjgl-glfw, lwjgl-opengl
 
+# 3 Распакуйте ZIP в корень проекта
